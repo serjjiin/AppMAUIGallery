@@ -17,7 +17,9 @@ namespace AppMAUIGallery.Repo
                 {
                     new Component
                     {
-                    Title = "StackLayout", Description = "Loren blabalbla.", Page = new StackLayoutPage()
+                        Title = "StackLayout", 
+                        Description = "Loren blabalbla.", 
+                        Page = typeof(StackLayoutPage) 
                     }
                 }
                 }
